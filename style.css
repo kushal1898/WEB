@@ -1,1 +1,38 @@
+/* Basic Table Styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* Header Styling */
+th {
+    background-color: #cccccc;
+}
+
+/* Side Headers (Days) */
+.day {
+    background-color: #dddddd;
+    font-weight: bold;
+}
+
+/* The Pink Highlight Color */
+.pink {
+    background-color: #ea9999;
+}
+
+/* The Lunch Column (Vertical Text) */
+.lunch {
+    writing-mode: vertical-rl; /* Vertical Text */
+    transform: rotate(180deg);
+    background-color: #dddddd;
+    font-weight: bold;
+}
 
